@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5d33677d06d394182e936ca5004ec9, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  randomizeLevels: 1
+  moneyBase: 50
+  moneyMultiplierInterval: 3
+  TutorialEnablePathRatio:
+  - 0.02
+  - 0.02
+  - 0.02
+  - 0.02
+  - 0.02
+  - 0.02
+  - 0.4
+  characterSpeeds:
+    default_speed: 2
+    min_speed: 1
+    max_speed: 3
+  baseDecisionMakingTime: 2
+  ai_behavior_description:
+  - difficulty_type: 1
+    wrong_card_pick_percent: 0.7
+    card_pick_delay: 2
+  - difficulty_type: 2
+    wrong_card_pick_percent: 0.5
+    card_pick_delay: 0.5
+  - difficulty_type: 3
+    wrong_card_pick_percent: 0.25
+    card_pick_delay: 0.25
+  - difficulty_type: 4
+    wrong_card_pick_percent: 0.05
+    card_pick_delay: 0.15
+  - difficulty_type: 5
+    wrong_card_pick_percent: 0
+    card_pick_delay: 0.07
+  csvData:
+  - levelNumber: 1
+    locationToGenerate: PODIUM_00-OFFICE_00-POOL_00-OFFICE_00-POOL_00-PODIUM_00
+    levelLength: 6
+    clothTypes: EVENING-OFFICE-SWIMMING
+    AICount: 2
+    levelDifficulty: TUTORIAL
+    isTutorial: 1
+  - levelNumber: 2
+    locationToGenerate: PODIUM_00-OFFICE_00-POOL_00-OFFICE_00-POOL_00-PODIUM_00
+    levelLength: 6
+    clothTypes: EVENING-OFFICE-SWIMMING
+    AICount: 2
+    levelDifficulty: TUTORIAL
+    isTutorial: 1
+  - levelNumber: 3
+    locationToGenerate: PODIUM_00-POOL_00-OFFICE_02
+    levelLength: 4
+    clothTypes: EVENING-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-EASY
+    isTutorial: 0
+  - levelNumber: 4
+    locationToGenerate: PODIUM_01-POOL_01-OFFICE_02
+    levelLength: 5
+    clothTypes: EVENING-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-EASY
+    isTutorial: 0
+  - levelNumber: 5
+    locationToGenerate: PODIUM_01-POOL_01-OFFICE_01
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-EASY
+    isTutorial: 0
+  - levelNumber: 6
+    locationToGenerate: PODIUM_00-POOL_02-OFFICE_00
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-OFFICE
+    AICount: 1
+    levelDifficulty: MEDIUM
+    isTutorial: 0
+  - levelNumber: 7
+    locationToGenerate: PARK_02-POOL_02-OFFICE_00
+    levelLength: 4
+    clothTypes: SPORT-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 8
+    locationToGenerate: PODIUM_02-POOL_01-PARK_00
+    levelLength: 4
+    clothTypes: EVENING-SWIMMING-SPORT
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 9
+    locationToGenerate: PARK_01-POOL_02-OFFICE_02
+    levelLength: 5
+    clothTypes: SPORT-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 10
+    locationToGenerate: PODIUM_01-POOL_01-OFFICE_02-PARK_00
+    levelLength: 4
+    clothTypes: EVENING-SWIMMING-SPORT-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 11
+    locationToGenerate: PODIUM_02-POOL_00-OFFICE_01-PARK_01
+    levelLength: 5
+    clothTypes: EVENING-SWIMMING-SPORT-OFFICE
+    AICount: 1
+    levelDifficulty: MEDIUM
+    isTutorial: 0
+  - levelNumber: 12
+    locationToGenerate: CITY_02-POOL_01-OFFICE_00-PARK_00
+    levelLength: 4
+    clothTypes: CASUAL-SWIMMING-SPORT-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 13
+    locationToGenerate: PODIUM_02-POOL_00-OFFICE_01-CITY_00
+    levelLength: 5
+    clothTypes: EVENING-SWIMMING-CASUAL-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 14
+    locationToGenerate: PARK_02-POOL_02-OFFICE_00-CITY_01
+    levelLength: 5
+    clothTypes: SPORT-SWIMMING-CASUAL-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 15
+    locationToGenerate: PARK_01-PODIUM_01-OFFICE_02-CITY_00
+    levelLength: 5
+    clothTypes: EVENING-CASUAL-SPORT-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 16
+    locationToGenerate: PODIUM_01-POOL_00-OFFICE_01-PARK_00
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-SPORT-OFFICE
+    AICount: 1
+    levelDifficulty: HARD
+    isTutorial: 0
+  - levelNumber: 17
+    locationToGenerate: CITY_02-POOL_02-OFFICE_01-BEACH_01
+    levelLength: 5
+    clothTypes: CASUAL-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 18
+    locationToGenerate: CITY_00-POOL_01-PODIUM_02-BEACH_01
+    levelLength: 5
+    clothTypes: EVENING-CASUAL-SWIMMING
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 19
+    locationToGenerate: PARK_00-POOL_01-OFFICE_02-BEACH_00
+    levelLength: 5
+    clothTypes: CASUAL-OFFICE-SWIMMING-SPORT
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 20
+    locationToGenerate: CITY_02-PODIUM_00-PARK_02-BEACH_00
+    levelLength: 5
+    clothTypes: SPORT-SWIMMING-CASUAL-EVENING
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 21
+    locationToGenerate: CITY_01-OFFICE_02-PODIUM_01
+    levelLength: 6
+    clothTypes: CASUAL-OFFICE-EVENING
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 22
+    locationToGenerate: PODIUM_02-OFFICE_00-PARK_01-BEACH_00
+    levelLength: 4
+    clothTypes: EVENING-OFFICE-SPORT-SWIMMING
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 23
+    locationToGenerate: OFFICE_00-PARK_00-PARK_01-BEACH_01-POOL_00
+    levelLength: 5
+    clothTypes: OFFICE-SPORT-SWIMMING
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 24
+    locationToGenerate: CITY_01-POOL_00-OFFICE_01-BEACH_02-OFFICE_00
+    levelLength: 6
+    clothTypes: CASUAL-SWIMMING-OFFICE
+    AICount: 2
+    levelDifficulty: HARD-HARD
+    isTutorial: 0
+  - levelNumber: 25
+    locationToGenerate: PODIUM_00-POOL_02-PARK_01-CITY_01
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-CASUAL-SPORT
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 26
+    locationToGenerate: OFFICE_01-PARK_01-POOL_01-BEACH_02-PARK_00
+    levelLength: 6
+    clothTypes: OFFICE-SPORT-SWIMMING
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 27
+    locationToGenerate: OFFICE_00-BEACH_00-PARK_02-CITY_01
+    levelLength: 6
+    clothTypes: OFFICE-SWIMMING-SPORT-CASUAL
+    AICount: 2
+    levelDifficulty: EASY-EASY
+    isTutorial: 0
+  - levelNumber: 28
+    locationToGenerate: POOL_00-BEACH_00-PARK_00-PARK_01
+    levelLength: 6
+    clothTypes: SWIMMING-SPORT
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 29
+    locationToGenerate: OFFICE_01-PODIUM_02-POOL_00-BEACH_02-PODIUM_01
+    levelLength: 6
+    clothTypes: OFFICE-EVENING-SWIMMING
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 30
+    locationToGenerate: PARK_01-BEACH_00-CITY_01-BEACH_01
+    levelLength: 7
+    clothTypes: SPORT-SWIMMING-CASUAL
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 31
+    locationToGenerate: CITY_01-PODIUM_00-OFFICE_01-BEACH_01-POOL_00
+    levelLength: 7
+    clothTypes: CASUAL-EVENING-OFFICE-SWIMMING
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 32
+    locationToGenerate: PODIUM_00-POOL_00-PARK_02-POOL_01
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-SPORT
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 33
+    locationToGenerate: OFFICE_01-CITY_00-CITY_01-POOL_01-BEACH_01
+    levelLength: 5
+    clothTypes: SWIMMING-CASUAL-OFFICE
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 34
+    locationToGenerate: OFFICE_00-PARK_01-POOL_02-PODIUM_00
+    levelLength: 5
+    clothTypes: OFFICE-SWIMMING-SPORT-EVENING
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 35
+    locationToGenerate: CITY_02-POOL_02-OFFICE_01-CITY_01-BEACH_01
+    levelLength: 7
+    clothTypes: SWIMMING-CASUAL-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 36
+    locationToGenerate: CITY_00-POOL_01-PODIUM_02-BEACH_01
+    levelLength: 7
+    clothTypes: CASUAL-SWIMMING-EVENING
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 37
+    locationToGenerate: PARK_00-POOL_01-OFFICE_02-BEACH_01-BEACH_00
+    levelLength: 6
+    clothTypes: SWIMMING-OFFICE-SPORT
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 38
+    locationToGenerate: CITY_02-PODIUM_00-PARK_02-BEACH_00
+    levelLength: 5
+    clothTypes: EVENING-SWIMMING-CASUAL-SPORT
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 39
+    locationToGenerate: CITY_01-OFFICE_02-PARK_00-PODIUM_01
+    levelLength: 7
+    clothTypes: EVENING-OFFICE-CASUAL-SPORT
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 40
+    locationToGenerate: CITY_02-POOL_01-PARK_01-BEACH_00
+    levelLength: 7
+    clothTypes: SPORT-SWIMMING-CASUAL
+    AICount: 2
+    levelDifficulty: EASY-MEDIUM
+    isTutorial: 0
+  - levelNumber: 41
+    locationToGenerate: OFFICE_00-PARK_00-PARK_01-BEACH_01-POOL_00
+    levelLength: 7
+    clothTypes: OFFICE-SWIMMING-SPORT
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 42
+    locationToGenerate: CITY_01-POOL_00-OFFICE_01-BEACH_02
+    levelLength: 7
+    clothTypes: SWIMMING-CASUAL-OFFICE
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 43
+    locationToGenerate: PODIUM_00-POOL_02-PARK_01-CITY_01
+    levelLength: 6
+    clothTypes: EVENING-CASUAL-SPORT-SWIMMING
+    AICount: 2
+    levelDifficulty: HARD-HARD
+    isTutorial: 0
+  - levelNumber: 44
+    locationToGenerate: OFFICE_01-PARK_01-POOL_01-BEACH_02-OFFICE_00
+    levelLength: 7
+    clothTypes: SWIMMING-OFFICE-SPORT
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 45
+    locationToGenerate: PODIUM_01-BEACH_00-PARK_02-CITY_01
+    levelLength: 6
+    clothTypes: EVENING-SWIMMING-CASUAL-SPORT
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 46
+    locationToGenerate: BEACH_01-BEACH_00-PARK_00-PARK_01-CITY_01
+    levelLength: 7
+    clothTypes: SWIMMING-SPORT-CASUAL
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  - levelNumber: 47
+    locationToGenerate: OFFICE_00-PODIUM_01-POOL_01-CITY_02-BEACH_02
+    levelLength: 5
+    clothTypes: SWIMMING-OFFICE-EVENING-CASUAL
+    AICount: 2
+    levelDifficulty: MEDIUM-HARD
+    isTutorial: 0
+  - levelNumber: 48
+    locationToGenerate: PARK_01-BEACH_01-BEACH_00-CITY_02
+    levelLength: 6
+    clothTypes: SPORT-SWIMMING-CASUAL
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 49
+    locationToGenerate: CITY_00-PODIUM_00-OFFICE_02-BEACH_01
+    levelLength: 7
+    clothTypes: OFFICE-CASUAL-EVENING-SWIMMING
+    AICount: 2
+    levelDifficulty: MEDIUM-MEDIUM
+    isTutorial: 0
+  - levelNumber: 50
+    locationToGenerate: PODIUM_00-PARK_01-POOL_01-PARK_02
+    levelLength: 7
+    clothTypes: EVENING-SWIMMING-SPORT
+    AICount: 2
+    levelDifficulty: EASY-HARD
+    isTutorial: 0
+  - levelNumber: 51
+    locationToGenerate: OFFICE_01-CITY_00-PARK_00-POOL_01-BEACH_01
+    levelLength: 6
+    clothTypes: OFFICE-CASUAL-SWIMMING-SPORT
+    AICount: 1
+    levelDifficulty: BOSS
+    isTutorial: 0
+  itemInfo:
+  - itemName: Face_01
+    orderInShop: 0
+    shopSection: Face
+    lockStatus: UNLOCKED
+    lockType: NONE
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: -1
+    priceToUnlock: -1
+  - itemName: Face_02
+    orderInShop: 1
+    shopSection: Face
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: Face_03
+    orderInShop: 2
+    shopSection: Face
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: Face_04
+    orderInShop: 3
+    shopSection: Face
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: Hairstyle_01
+    orderInShop: 0
+    shopSection: Hairstyle
+    lockStatus: UNLOCKED
+    lockType: NONE
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: -1
+    priceToUnlock: -1
+  - itemName: Hairstyle_04
+    orderInShop: 1
+    shopSection: Hairstyle
+    lockStatus: LOCKED
+    lockType: WATCH_AD
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 3
+  - itemName: Hairstyle_05
+    orderInShop: 2
+    shopSection: Hairstyle
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 30
+    priceToUnlock: 2000
+  - itemName: Hairstyle_07
+    orderInShop: 3
+    shopSection: Hairstyle
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 40
+    priceToUnlock: 2000
+  - itemName: Hairstyle_08
+    orderInShop: 4
+    shopSection: Hairstyle
+    lockStatus: LOCKED
+    lockType: WATCH_AD
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 3
+  - itemName: EVENING_01
+    orderInShop: 0
+    shopSection: Costume
+    lockStatus: UNLOCKED
+    lockType: NONE
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: -1
+    priceToUnlock: -1
+  - itemName: EVENING_02
+    orderInShop: 1
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 20
+    priceToUnlock: 2000
+  - itemName: OFFICE_01
+    orderInShop: 2
+    shopSection: Costume
+    lockStatus: UNLOCKED
+    lockType: NONE
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: -1
+    priceToUnlock: -1
+  - itemName: OFFICE_02
+    orderInShop: 3
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 25
+    priceToUnlock: 2000
+  - itemName: SWIMMING_01
+    orderInShop: 4
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 15
+    priceToUnlock: 2000
+  - itemName: SWIMMING_02
+    orderInShop: 5
+    shopSection: Costume
+    lockStatus: UNLOCKED
+    lockType: NONE
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: -1
+    priceToUnlock: -1
+  - itemName: SPORT_02
+    orderInShop: 6
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: 5
+    priceToUnlock: -1
+  - itemName: SPORT_01
+    orderInShop: 7
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 35
+    priceToUnlock: 2000
+  - itemName: CASUAL_01
+    orderInShop: 8
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: SELECTED
+    highlight: DEFAULT
+    levelToUnlock: 10
+    priceToUnlock: -1
+  - itemName: CASUAL_02
+    orderInShop: 9
+    shopSection: Costume
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 45
+    priceToUnlock: 2000
+  - itemName: Head_01
+    orderInShop: 0
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: WristRight_01
+    orderInShop: 1
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: WATCH_AD
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 3
+    priceToUnlock: 3
+  - itemName: HandRight_01
+    orderInShop: 2
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: WristLeft_01
+    orderInShop: 3
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: BUY_FOR_MONEY
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: -1
+    priceToUnlock: 2000
+  - itemName: Eyes_01
+    orderInShop: 4
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: LEVEL_UNLOCK
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 50
+    priceToUnlock: 2000
+  - itemName: Eyes_02
+    orderInShop: 5
+    shopSection: Accessory
+    lockStatus: LOCKED
+    lockType: WATCH_AD
+    selectionState: NOT_SELECTED
+    highlight: NONE
+    levelToUnlock: 3
+    priceToUnlock: 3
+  appearanceAnimations:
+  - correct:
+    - {fileID: 135722564466159378, guid: 9fce13148dbb8b04ebd309c1df7510ee, type: 3}
+    wrong:
+    - {fileID: 135722564466159378, guid: 9fce13148dbb8b04ebd309c1df7510ee, type: 3}
+  - correct:
+    - {fileID: -741669917062038630, guid: b8eaddae130cb0c4789aba03de6988b7, type: 3}
+    - {fileID: -203655887218126122, guid: 411c59d6f75d5d942912841517a4df4f, type: 3}
+    - {fileID: -5409695967447777212, guid: 17780702f1cdbb342bec31e99d48d754, type: 3}
+    wrong:
+    - {fileID: -5299658327870025839, guid: a8d821e7c16438c468fecdd52a54daa0, type: 3}
+  - correct:
+    - {fileID: -7319435429439651320, guid: b69a9b168e36e8d4bbecc30e787fa87b, type: 3}
+    wrong:
+    - {fileID: -203655887218126122, guid: a2d673425bc618e43ad1c217043c93fb, type: 3}
+  - correct:
+    - {fileID: -1656217751986750952, guid: afda3192b196cf943a33f425cbe4d64c, type: 3}
+    wrong:
+    - {fileID: -203655887218126122, guid: f70fe53c056053c44a2c287582349c3a, type: 3}
+    - {fileID: -203655887218126122, guid: 57eaf6fe506b1c346ac658eb1d1c7385, type: 3}
+  - correct:
+    - {fileID: -203655887218126122, guid: a31c28eb5a04be24084a216e0b44795f, type: 3}
+    - {fileID: -203655887218126122, guid: a041614340485324fac6dd7459fad0c5, type: 3}
+    - {fileID: -203655887218126122, guid: 0e406328628cb5e4e93f8077ca6242e2, type: 3}
+    - {fileID: -203655887218126122, guid: ef29fe8cab06c834394e87bc05cab586, type: 3}
+    wrong:
+    - {fileID: -3985097556557447610, guid: 61d33bd48bdcd004d9238eac32b41333, type: 3}
+  hairStyleColors:
+  - 0F0F0F
+  - 725524
+  - C6A873
+  - 542E16
+  - BA1D00
+  - BEB9B8
+  unlockSkinRate: 5

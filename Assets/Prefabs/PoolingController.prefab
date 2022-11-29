@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3501232110312345436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3501232110312345439}
+  - component: {fileID: 3501232110312345438}
+  m_Layer: 0
+  m_Name: PoolingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3501232110312345439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501232110312345436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3501232110312345438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501232110312345436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e17f0041579244fb01178bab26ed1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllPoolableObjectDefinition:
+  - PullableObject: {fileID: 7637812723604520323, guid: 3d1a2d5656a616249ad7b940c838445f, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 1038200062089789007, guid: a6cc639744189234caf72027d3f59141, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 100370587398836258, guid: 9bf2e156a082585479104612f36f4074, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 6511958905132251987, guid: bd0280c56edfe8945bb26abd0980f78d, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 1215600083025240395, guid: e4a6c2b5a08685b40808154cd25ea7cf, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 1242922155358360299, guid: d1ccf1c67ea22474d908c0abda9a6baf, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 4894404840984808941, guid: acd76f5b3bcd53d499ef01d990a3992e, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 6413049826845825799, guid: 8de41b4afae1b3d4485d670fd791df11, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 3890822670232250398, guid: 7be2098817b84c644af789e1949a801a, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 1296595575666472470, guid: 889766502198dd24889a67491089db5b, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 4809432023509865808, guid: c72fb969bd72e9a4eaae7dfb978643be, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 2310134092705019717, guid: 59bcac7888ee83245ab8709ef8bd222b, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 56548727944223382, guid: e72b25e084fca454ca4af4420a4d81f1, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 8735545426137737811, guid: 07dd23b8145fe5c40ae5cc83870e8be6, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 8569994657299844879, guid: 0e72d5cb5c58bb548a6c53c1681c6045, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 5903932210098171371, guid: 87a920e30d5f4b743b04a2686443d694, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 8587285427248947575, guid: e1530aa10c881064da253c5008563b54, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 1171031304669222759, guid: dc08ae85d16c69244bfc0cb32d771318, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 5541090995764178298, guid: cb40b9f3e7afb7f4eb84e91b0f1a193b, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 4422376847597978348, guid: bb563f6a92185cb42823d71a3ff261b4, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 6287622773539340835, guid: 66093a9f749471d48a6f657b30936f22, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 3506144356682048410, guid: c36db18a872de4d4dbb2529cbd0cc7a3, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 5278990697447284947, guid: e658f9526a0c07b4683fbde52b8eae94, type: 3}
+    PullableObjectCount: 5
+  - PullableObject: {fileID: 3520192655879176400, guid: 51a9a7a4fe3a9284788a0c5ab4a28b49, type: 3}
+    PullableObjectCount: 5
+  gapBetweenObjects: 3
+  z_poisition: 0

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "379760460788",
+    "project_id": "personality-shift",
+    "storage_bucket": "personality-shift.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379760460788:android:03d6282d7a1585be502fa1",
+        "android_client_info": {
+          "package_name": "com.WeaveGames.PersonalityShift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379760460788-3v6lqgtkc9l1muohvd70rpi933fmqudg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfQcroKj9JpTdAUcsjslkL627aF1rZpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379760460788-3v6lqgtkc9l1muohvd70rpi933fmqudg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
